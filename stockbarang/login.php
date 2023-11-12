@@ -38,6 +38,12 @@ if(!isset($_SESSION['log'])){
         <title>Page Title - SB Admin</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
+        <style>
+        body {
+            background: url('assets/img/gedung-sate-profile1639291114.jpg') center center fixed;
+            background-size: cover;
+        }
+        </style>
     </head>
     <body class="bg-primary">
         <div id="layoutAuthentication">
@@ -47,7 +53,10 @@ if(!isset($_SESSION['log'])){
                         <div class="row justify-content-center">
                             <div class="col-lg-5">
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Login</h3></div>
+                                    <div class="card-header">
+                                        <h3 class="text-center font-weight-light my-4">Buku Inventaris JDS</h3>
+                                        <p class="text-center small mb-0">Login</p>
+                                    </div>
                                     <div class="card-body">
                                         <form method="post">
                                             <div class="form-group">

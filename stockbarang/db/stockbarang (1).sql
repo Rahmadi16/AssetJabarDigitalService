@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 07 Nov 2023 pada 10.46
+-- Waktu pembuatan: 12 Nov 2023 pada 08.22
 -- Versi server: 10.4.19-MariaDB
 -- Versi PHP: 8.0.7
 
@@ -53,8 +53,6 @@ CREATE TABLE `barang` (
 
 INSERT INTO `barang` (`idx`, `kode_barang`, `nama_barang`, `merk`, `spesifikasi`, `no_jumlah`, `no_mesin`, `no_polisi`, `tahun_perolehan`, `volume`, `satuan`, `harga_satuan`, `keterangan`, `u_ekonomis`, `akum_2020`, `akum_2021`, `beban_2021`) VALUES
 (3, '1.3.2.02.01.02.003', 'Mini Bus', 'Avanza', 'MHFM1BA36K017400', 'MHFM1BA36K017400', 'DB81183', 'D 1805 D', 2010, '1', 'Unit', 106480000, 'Oprasional UPTD PLD', '8', '106480000', 106480000, 0),
-(7, '1.3.2.06.01.02.133', 'Monitor/Televisi', 'LG ', ' 55SVH7E', '3', '', '', 2019, '1', 'Unit', 168000000, 'R. Commander', '8', '36750000', 57750000, 21000000),
-(8, '1.3.2.06.01.02.133', 'Monitor/Televisi', 'LG ', ' 55SVH7E', '4', '', '', 2019, '1', 'Unit', 168000000, 'R. Commander', '8', '36750000', 57750000, 21000000),
 (9, '1.3.2.06.01.02.133', 'Monitor/Televisi', 'LG ', ' 55SVH7E', '5', '', '', 2019, '1', 'Unit', 168000000, 'R. Commander', '8', '36750000', 57750000, 21000000),
 (10, '1.3.2.06.01.02.133', 'Monitor/Televisi', 'LG ', ' 55SVH7E', '6', '', '', 2019, '1', 'Unit', 168000000, 'R. Commander', '8', '36750000', 57750000, 21000000),
 (11, '1.3.2.06.01.02.133', 'Monitor/Televisi', 'LG ', ' 55SVH7E', '7', '', '', 2019, '1', 'Unit', 168000000, 'R. Commander', '8', '36750000', 57750000, 21000000),
@@ -234,7 +232,6 @@ INSERT INTO `barang` (`idx`, `kode_barang`, `nama_barang`, `merk`, `spesifikasi`
 (185, '1.3.2.10.02.04.024', 'Switch', 'Digitools', ' TP-580T', '19', '', '', 2019, '1', 'Unit', 3449500, 'R. Commander (belakang Monitor)', '4', '1509200', 2371600, 862400),
 (186, '1.3.2.10.02.04.024', 'Switch', 'Digitools', ' TP-580T', '20', '', '', 2019, '1', 'Unit', 3449500, 'R. Commander (belakang Monitor)', '4', '1509200', 2371600, 862400),
 (187, '1.3.2.10.02.04.024', 'Switch', 'Digitools', ' TP-580T', '21', '', '', 2019, '1', 'Unit', 3449500, 'R. Commander (belakang Monitor)', '4', '1509200', 2371600, 862400),
-(188, '1.3.2.10.02.04.024', 'Switch', 'Digitools', ' TP-580T', '22', '', '', 2019, '1', 'Unit', 3449500, 'R. Commander (belakang Monitor)', '4', '1509200', 2371600, 862400),
 (189, '1.3.2.10.02.04.024', 'Switch', 'Digitools', ' TP-580T', '23', '', '', 2019, '1', 'Unit', 3449500, 'R. Commander (belakang Monitor)', '4', '1509200', 2371600, 862400),
 (190, '1.3.2.10.02.04.024', 'Switch', 'Digitools', ' TP-580T', '24', '', '', 2019, '1', 'Unit', 3449500, 'R. Commander (belakang Monitor)', '4', '1509200', 2371600, 862400),
 (191, '1.3.2.10.02.04.024', 'Switch', 'Digitools', ' TP-580T', '25', '', '', 2019, '1', 'Unit', 3449500, 'R. Commander (belakang Monitor)', '4', '1509200', 2371600, 862400),
@@ -243,7 +240,6 @@ INSERT INTO `barang` (`idx`, `kode_barang`, `nama_barang`, `merk`, `spesifikasi`
 (194, '1.3.2.10.02.04.024', 'Switch', 'Digitools', ' TP-580T', '28', '', '', 2019, '1', 'Unit', 3449500, 'R. Commander (belakang Monitor)', '4', '1509200', 2371600, 862400),
 (195, '1.3.2.10.02.04.024', 'Switch', 'Digitools', ' TP-580T', '29', '', '', 2019, '1', 'Unit', 3449500, 'R. Commander (belakang Monitor)', '4', '1509200', 2371600, 862400),
 (196, '1.3.2.10.02.04.024', 'Switch', 'Digitools', ' TP-580T', '30', '', '', 2019, '1', 'Unit', 3449500, 'R. Commander (belakang Monitor)', '4', '1509200', 2371600, 862400),
-(197, '1.3.2.10.02.04.024', 'Switch', 'Digitools', ' TP-580T', '31', '', '', 2019, '1', 'Unit', 3449500, 'R. Commander (belakang Monitor)', '4', '1509200', 2371600, 862400),
 (198, '1.3.2.10.02.04.024', 'Switch', 'Digitools', ' TP-580T', '32', '', '', 2019, '1', 'Unit', 3449500, 'R. Commander (belakang Monitor)', '4', '1509200', 2371600, 862400),
 (199, '1.3.2.10.02.04.024', 'Switch', 'Digitools', ' TP-580T', '33', '', '', 2019, '1', 'Unit', 3449500, 'R. Commander (belakang Monitor)', '4', '1509200', 2371600, 862400),
 (201, '1.3.2.10.02.04.024', 'Switch', 'Digitools', ' TP-580T', '34', '-', '-', 2019, '1', 'unit', 3449500, 'R. Commander (belakang Monitor)', '4', '1509200', 2371600, 862400),
@@ -254,7 +250,8 @@ INSERT INTO `barang` (`idx`, `kode_barang`, `nama_barang`, `merk`, `spesifikasi`
 (206, '1.3.2.02.01.02.003', 'Mini Bus', 'toyota', 'abcd', 'a5', 'm3', 's 4', 2014, '1', 'unit', 10000000, 'Oprasional UPTD PLD', '8', '106480000', 106480000, 862400),
 (207, '1.3.2.02.01.02.003', 'Mini Bus', 'toyota', 'MHFM1BA36K017400', 'a5', 'DB81183', 'D 1805 D', 2015, '1', 'unit', 10000000, 'Oprasional UPTD PLD', '8', '106480000', 221300000, 114820000),
 (208, '1.3.2.02.01.02.003', 'Mini Bus', 'toyota', 'MHFM1BA36K017400', 'a5', 'DB81183', 'D 1805 D', 2015, '1', 'unit', 10000000, 'Oprasional UPTD PLD', '8', '106480000', 221300000, 114820000),
-(209, '1.3.2.02.01.02.003	', 'Mini Bus', 'Avanza', 'MHIJFF116DK266026', '35', '1234455', 'D 1234 Y', 2011, '1', 'Unit', 106480000, 'operasional', '8', '1509200', 2371600, 862400);
+(213, '1.3.2.02.01.04.001', 'Sepeda Motor', 'Honda Vario', 'MHIJFF116DK266026', 'MHIJFF116DK266026', '1234455', 'D 1945 AB', 2017, '1', 'Unit', 26000000, 'operasional', '4', '5500160', 9625280, 4125120),
+(214, '1.3.2.02.01.04.001', 'Sepeda Motor', 'Honda Vario', 'MHIJFF116DK266026', 'MHIJFF116DK266026', '1234455', 'D 1945 AB', 2017, '1', 'Unit', 26000000, 'operasional', '4', '5500160', 9625280, 4125120);
 
 -- --------------------------------------------------------
 
@@ -263,26 +260,25 @@ INSERT INTO `barang` (`idx`, `kode_barang`, `nama_barang`, `merk`, `spesifikasi`
 --
 
 CREATE TABLE `barang_keluar` (
-  `idx` int(11) NOT NULL,
-  `kode_barang` varchar(20) NOT NULL,
-  `nama_barang` varchar(50) NOT NULL,
+  `idx` int(2) NOT NULL,
+  `kode_barang` varchar(50) NOT NULL,
+  `nama_barang` varchar(100) NOT NULL,
   `merk` varchar(50) NOT NULL,
-  `spesifikasi` varchar(50) NOT NULL,
-  `no_jumlah` varchar(15) NOT NULL,
-  `no_mesin` varchar(15) NOT NULL,
-  `no_polisi` varchar(15) NOT NULL,
-  `tahun_perolehan` int(4) NOT NULL,
-  `satuan` varchar(4) NOT NULL,
-  `volume` varchar(25) NOT NULL,
-  `harga_satuan` longtext NOT NULL,
-  `keterangan` varchar(50) NOT NULL,
-  `u_ekonomis` varchar(2) NOT NULL,
-  `akum_2020` longtext NOT NULL,
-  `akum_2021` longtext NOT NULL,
-  `beban_2021` longtext NOT NULL,
-  `alasan` varchar(100) NOT NULL,
-  `tanggal_keluar` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  `volume` int(11) NOT NULL,
+  `harga_satuan` int(11) NOT NULL,
+  `alasan` text NOT NULL,
+  `tanggal_keluar` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data untuk tabel `barang_keluar`
+--
+
+INSERT INTO `barang_keluar` (`idx`, `kode_barang`, `nama_barang`, `merk`, `volume`, `harga_satuan`, `alasan`, `tanggal_keluar`) VALUES
+(32, '1.3.2.02.01.04.001', 'Sepeda Motor', 'Honda Vario', 1, 26000000, 'Rusak', '2023-11-10'),
+(33, '1.3.2.02.01.04.001', 'Sepeda Motor', 'Honda Vario', 1, 26000000, 'Usang', '2023-11-10'),
+(34, '1.3.2.10.02.04.024', 'Switch', 'Digitools', 1, 3449500, 'Rusak', '2023-11-10'),
+(35, '1.3.2.10.02.04.024', 'Switch', 'Digitools', 1, 3449500, 'Dijual', '2023-11-10');
 
 -- --------------------------------------------------------
 
@@ -333,13 +329,13 @@ ALTER TABLE `login`
 -- AUTO_INCREMENT untuk tabel `barang`
 --
 ALTER TABLE `barang`
-  MODIFY `idx` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=210;
+  MODIFY `idx` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=217;
 
 --
 -- AUTO_INCREMENT untuk tabel `barang_keluar`
 --
 ALTER TABLE `barang_keluar`
-  MODIFY `idx` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=201;
+  MODIFY `idx` int(2) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
 -- AUTO_INCREMENT untuk tabel `login`
