@@ -1,3 +1,8 @@
+<?php
+require 'koneksi.php';
+require 'cek.php';
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,16 +11,63 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Data Kode Barang</title>
+        <title>Buku Inventaris JDS</title>
         <link href="css/styles.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
     </head>
-    <body>
-        <div class="container">
-            <h1 class="my-4">Data Kode Barang</h1>
-            <a href="tambah_barang.php" class="btn btn-secondary mb-3">Kembali</a>
+    <body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.php">
+                <img src="assets/img/Logo-JDS.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                Buku Inventaris
+            </a>
+            <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
+            <!-- Navbar Search-->
+            <!-- Navbar-->
+        </nav>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                            <div class="sb-sidenav-menu-heading">Core</div>
+                            <a class="nav-link" href="index.php">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Dashboard
+                            </a>
+                            <a class="nav-link" href="barang.php">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Data Barang
+                            </a>
+                            <a class="nav-link" href="data_kode_barang.php">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Kode Barang
+                            </a>
+                            <div class="sb-sidenav-menu-heading">History</div>
+                            <a class="nav-link" href="barang_keluar.php">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Data Keluar
+                            </a>
+                            <!-- Garis pembatas -->
+                            <div class="sb-sidenav-menu-heading">Logout</div>
+                            <a class="nav-link" href="logout.php" onclick="return confirmLogout()">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Keluar
+                            </a>
+                            <script>
+                                function confirmLogout() {
+                                    return confirm("Apakah Anda yakin ingin logout?");
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <div class="container-fluid">
+                    <h1 class="my-4">Data Kode Barang</h1>
             <a href="tambah_kode_barang.php" class="btn btn-primary mb-3">Tambah Kode Barang</a>
             <table class="table table-bordered table-hover">
                 <thead class="thead-dark">

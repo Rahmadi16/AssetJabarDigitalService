@@ -76,6 +76,10 @@ $result_barang_keluar = mysqli_query($conn, $query_barang_keluar);
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Data Barang
                             </a>
+                            <a class="nav-link" href="data_kode_barang.php">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Kode Barang
+                            </a>
                             <div class="sb-sidenav-menu-heading">History</div>
                             <a class="nav-link" href="barang_keluar.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
@@ -132,7 +136,7 @@ $result_barang_keluar = mysqli_query($conn, $query_barang_keluar);
                                             echo '<td>' . $row['volume'] . '</td>';
                                             echo '<td>' . number_format($row['harga_satuan'], 3, ',', '.') . '</td>';
                                             echo '<td>' . $row['alasan'] . '</td>';
-                                            echo '<td>' . $row['tanggal_keluar'] . '</td>';
+                                            echo '<td>' . date('d-m-Y', strtotime($row['tanggal_keluar'])) . '</td>';
                                             echo '</tr>';
 
                                             $no++;

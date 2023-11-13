@@ -101,6 +101,10 @@ while ($row = mysqli_fetch_assoc($result)) {
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Data Barang
                             </a>
+                            <a class="nav-link" href="data_kode_barang.php">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Kode Barang
+                            </a>
                             <div class="sb-sidenav-menu-heading">History</div>
                             <a class="nav-link" href="barang_keluar.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
